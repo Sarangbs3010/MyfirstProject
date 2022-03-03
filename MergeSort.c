@@ -56,10 +56,10 @@ void print_Array(int a[],int n)
 void main()
 {
     int a[6]={23,12,32,1,11,100};
-    printf("Unsorted Array:\n")
+    printf("Unsorted Array:\n");
     print_Array(a,6);
     Merge_sort(a,0,5);
     printf("\n");
-    printf("Sorted Array:\n")
+    printf("Sorted Array:\n");
     print_Array(a,6);
 }
